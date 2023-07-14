@@ -1,0 +1,185 @@
+:root{
+    /*Colores*/
+    --black: #000000;
+    --darkblue: #0B144A;
+    --plumb: #EFF1FF;
+    --fb-color: #4C7CF7;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{ 
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    width: 100vw;
+}
+
+main{
+    background-color: var(--plumb);
+}
+.main-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.main-profile img{
+    width: 164px;
+    border-radius: 50%;
+    translate: 0px -40%;
+    margin-bottom: -48px;
+}
+.main-profile h1{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.main-profile h3{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 0px 12px;
+}
+.main-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.main-services a{
+    text-decoration: none;
+}
+.main-services--element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 300px;
+    background-color: var(--darkblue);
+    border-radius: 12px; 
+    margin:  8px 20px;   
+}
+.main-services--element img{
+    height: 44px;
+    margin-right: 12px;
+}
+.main-services--element h3{
+    font-size: 1.7rem;
+    color: white;
+}
+.main-redes-sociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 24px 0px;
+}
+.main-redes-sociales a{
+    text-decoration: none;
+}
+.main-redes-sociales--element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 300px;
+    border-radius: 12px; 
+    margin: 8px 20px;
+    color: white;   
+}
+.main-redes-sociales--element img{
+    margin-right: 12px;
+}
+.main-redes-sociales--element h3{
+    font-size: 2.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.main-redes-sociales--element h4{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.tiktok{
+    background-color: black;
+}
+.tiktok img{
+    height: 64px;
+    margin-right: 4px;
+    margin-left: -20px;
+}
+.instagram{
+    background: linear-gradient(180deg, rgba(247,151,76,1) 0%, rgba(230,74,100,1) 100%);
+}
+.facebook{
+    background-color: var(--fb-color);
+}
+.main-suscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--plumb);
+    padding: 24px 24px;
+    text-align: center;
+}
+.main-suscription h3{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+.main-suscription .input-email{
+    width: 290px;
+    height: 40px;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.8rem;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: #000000;
+    background-color: #ffffff00;
+    padding-left: 12px;
+    margin-bottom: 12px;
+}
+.main-suscription .input-boton{
+    width: 290px;
+    height: 40px;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.8rem;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: #000000;
+    color: white;
+    background-color: var(--darkblue);
+    padding-left: 12px;
+}
+.input-boton{
+    cursor: pointer;
+}
+
+footer{
+    background-color: var(--plumb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer-contact{
+    padding-bottom: 24px;
+}
+.footer-contact h3{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.footer-contact h4{
+    font-weight: 300;
+    font-size: 1.8rem;
+}

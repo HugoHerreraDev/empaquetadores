@@ -1,0 +1,20 @@
+header, main, .main-description, .main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-description img, .main-description h3{
+    width: 700px;
+}
+.main-form{
+    width: 700px;
+}
+.main-form-datos input, select, textarea{
+    width: 600px;
+    }
+.main-experience .main-experience-text{
+    width: 700px;
+}
+.main-suscription .input-email,.main-suscription .input-boton{
+    width: 450px;
+}

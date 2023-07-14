@@ -1,0 +1,8 @@
+.main-description-img, .main-description-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-description-img h3{
+    width: 900px;
+}

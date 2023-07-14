@@ -1,0 +1,179 @@
+:root{
+    /*Colores*/
+    --darkblue: #10154F;
+    --plumb: #EFF1FF;
+    --fb-color: #4C7CF7;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{ 
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: var(--darkblue);
+}
+.header-firma{
+    padding: 20px 0px 0px 20px;
+}
+.header-firma .firma-hugo{
+    width: 97px;
+    height: 35px;
+}
+.header-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 8px 20px 8px;
+}
+.header-info h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    padding: 4px 32px 12px 32px;
+}
+.header-info h3{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: white;
+}
+header img{
+    width: 100%;
+    translate: 0px 6px;
+}
+.info-basica{
+    margin: 0px 12px 0px 12px
+}
+.info-basica h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 12px 0px 12px 0px;
+}
+.info-basica h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.entrenamiento-img img{
+    width: 100vw;
+}   
+.entrenamiento-info{
+    margin: 0px 12px 0px 12px
+}
+.entrenamiento-info h2{
+    font-size: 2.4rem;
+    font-weight: 800;
+    text-decoration: underline;
+    margin: 12px 0px 12px 0px;
+    color: #15244B;
+}
+.entrenamiento-info .precio{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.entrenamiento-info h3, .entrenamiento-info h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 12px 0px 12px 0px;
+}
+.entrenamiento-info h4{
+    margin: 0px;
+}
+.entrenamiento-boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.entrenamiento-boton a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #111950;
+    min-height: 48px;
+    min-width: 290px;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 6px;
+    margin: 8px 0px 48px 0px;
+}
+
+
+footer{
+    margin: 0px 12px 0px 12px
+}
+.footer-contact{
+    padding-bottom: 24px;
+    text-align: center;
+}
+.footer-contact h3{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.footer-contact h4{
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+
+/*Página premios.html*/
+.info-basica-introduction{
+    padding: 28px 12px 28px 12px
+}
+.info-basica-introduction h2{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    padding: 0px 0px 0px 0px;
+}
+.info-basica-introduction h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 12px 0px 12px 0px;
+}
+
+.info-basica-education{
+    padding: 16px 12px 12px 12px;
+    background-color: #fbe06e;
+}
+.info-basica-education h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 16px 0px 12px 0px;
+}
+.info-basica-education .education-title{
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+}
+.info-basica-education h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 0px 0px 24px 0px;
+}
+.imagen-evento{
+    width: 100%;
+}
+.imagen-evento img{
+    width: 100vw;
+}
+.logros{
+    padding: 16px 12px 12px 12px;
+}
+.logros h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 16px 0px 12px 0px;
+}
+.logros h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 0px 0px 12px 0px;
+}

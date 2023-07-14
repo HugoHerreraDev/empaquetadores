@@ -1,0 +1,18 @@
+header{
+    background-color: #EFF1FF;
+}
+header img{
+    visibility: hidden;
+    height: 110px;
+}
+.main-services{
+    flex-direction: row;
+    justify-content: center;
+}
+.main-redes-sociales{
+    flex-direction: row;
+    justify-content: center;
+}
+.main-suscription .input-email,.main-suscription .input-boton{
+    width: 450px;
+}

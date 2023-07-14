@@ -1,0 +1,202 @@
+:root{
+    /*Colores*/
+    --darkblue: #10154F;
+    --boton-blue: #111950;
+    --plumb: #CFD2D3;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{ 
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: var(--darkblue);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 12px 12px 12px 12px;
+}
+header img{
+    width: 97px;
+}
+header h1{
+    font-size: 3.6rem;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 32px 0px 32px;
+}
+header h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-description img{
+    width: 100vw;
+}
+.main-description h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    padding: 8px 12px 8px 12px;
+}
+.main-description h2{
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 2.6rem;
+    padding: 8px 12px 0px 12px;
+}
+.main-form-datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+    padding: 32px 24px 32px 24px;
+    background-color: #EBEEF2;
+    border-radius: 16px;
+}
+.main-form-datos label{
+    display: none;
+}
+.main-form-datos input, select, textarea{
+    width: 75vw;
+    height: 43px;
+    border-width: 0em;
+    border-color: #CFD2D3;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: #9A9A9A;
+    padding-left: 6px;
+    float: left;
+    margin: -4px 0px -4px 0px;
+}
+.main-form-datos input, select, textarea,:hover{
+    color: black;
+}
+select{
+    color: black;
+}
+textarea{
+    min-width: 240px;
+    min-height: 110px;
+}
+.main-form-datos .boton-submit{
+    width: 240px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: var(--boton-blue);
+    color: white;
+    border-radius: 6px;
+}
+.boton-submit{
+    cursor: pointer;
+}
+
+.main-experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 12px 12px 12px;
+}
+.main-experience-text h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    margin: 12px 0px 12px 0px;
+    text-align: justify;
+}
+.main-experience-logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-experience img{
+    width: 260px;
+    margin: 12px 0px 12px 0px;
+}
+.main-experience .logo-century-21{
+    margin-top: 24px;
+}
+.main-experience .logo-gheiros-university{
+    width: 280px;
+}
+.main-experience .logo-aibr-karaz{
+    width: 260px;
+}
+.main-experience .logo-gheiros-inmobiliaria{
+    width: 170px;
+}
+.main-experience .logo-plus-app{
+    width: 100px;
+}
+.main-experience .logo-store-games{
+    width: 180px;
+    border-radius: 8px;
+}
+
+.main-suscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 24px;
+    text-align: center;
+}
+.main-suscription h3{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+.main-suscription .input-email{
+    width: 290px;
+    height: 40px;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.8rem;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: #000000;
+    background-color: #ffffff00;
+    padding-left: 12px;
+    margin-bottom: 12px;
+}
+.main-suscription .input-boton{
+    width: 290px;
+    height: 40px;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.8rem;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: #000000;
+    color: white;
+    background-color: var(--darkblue);
+    padding-left: 12px;
+}
+.input-boton{
+    cursor: pointer;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer-contact{
+    padding-bottom: 16px;
+}
+.footer-contact h3{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.footer-contact h4{
+    font-weight: 300;
+    font-size: 1.8rem;
+}

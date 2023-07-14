@@ -1,0 +1,281 @@
+:root{
+    /*Colores*/
+    --red: #FA3131;
+    --green: #34E75B;
+    --boton-red: #DF2020;
+    --dorado: #FFE79F;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{ 
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.header-logo{
+    width: 122px;
+    margin: 32px 0px 24px 0px;
+}
+header h1{
+    font-size: 4rem;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+header h2{
+    color: white;
+    font-weight: 400;
+}
+.header-metodo-olimpo-img{
+    width: 327px;
+}
+
+
+.main-presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 12px 12px 12px 12px;
+}
+.main-presentation h2{
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 2.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-presentation h2 span{
+    color: var(--red);
+}
+.main-presentation h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    margin: 16px 0px 16px 0px;
+}
+.main-presentation h4{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 0px 0px 0px;
+}
+.main-presentation .precio-normal,.main-presentation .precio-lanzamiento{
+    color: var(--green);
+}
+.main-presentation .precio-normal{
+    text-decoration: line-through;
+    margin-bottom: 24px;
+}
+.main-presentation h5{
+    font-size: 3.4rem;
+    font-weight: 900;
+    line-height: 3.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    margin: opx 0px 0px 0px;
+}
+.main-presentation a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 290px;
+    height: 70px;
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    background-color: var(--boton-red);
+    border-radius: 6px;
+    margin: 16px 0px 24px 0px;
+}
+
+.main-description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 12px 12px 12px 12px;
+}
+.main-description-title{
+    font-family: 'Montserrat', sans-serif;
+}
+.main-description-title h2{
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 1rem;
+}
+.main-description-title h1{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+}
+.main-description-title h3{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--dorado);
+}
+.main-description-img img{
+    width: 327px;
+}
+.main-description-img h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.main-description-img h3 .estrategias{
+    color: var(--red);
+    font-weight: 600;
+}
+.main-description-img h3 .tecnicas{
+    color: var(--green);
+    font-weight: 600;
+}
+.main-description-items{
+    text-align: left;
+}
+.main-description-items h4{
+    font-size: 2.1rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    margin: 16px 0px 16px 0px;
+}
+.main-description-items h4 span{
+    font-weight: 600;
+    color: var(--dorado);
+}
+
+.main-bonus{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 12px 12px 12px 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-bonus-title h4{
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 3.4rem;
+}
+.main-bonus-title span{
+    color: var(--red);
+}
+.main-bonus-item{
+    margin: 20px 0px 8px 0px;
+}
+.main-bonus-item h2, h3, h4{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+.main-bonus-item h2{
+    font-weight: 800;
+    color: var(--dorado);
+    margin: 16px 0px 16px 0px;
+}
+.main-bonus-item h3{
+    font-weight: 700;
+}
+.main-bonus-item h4{
+    font-weight: 500;
+    margin: 0px 24px 0px 24px;
+}
+.main-bonus-item img{
+    width: 250px;
+    margin-top: 16px;
+}
+
+.main-warranty, .main-questions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 12px 12px 12px 12px;
+}
+.main-warranty h3{
+    font-size: 3.6rem;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 3.6rem;
+    margin: 24px 28px 0px 28px;
+}
+.main-warranty h3 span{
+    color: var(--dorado);
+}
+.main-warranty h4{
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin: 8px 12px 24px 12px;
+}
+.main-warranty img{
+    width: 270px;
+    margin: 0px 0px 12px 0px;
+}
+.main-warranty a, .main-questions a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 290px;
+    height: 70px;
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    background-color: var(--boton-red);
+    border-radius: 6px;
+    margin: 16px 0px 24px 0px;
+}
+
+.main-questions h3{
+    font-size: 3.6rem;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 3.6rem;
+    margin: 8px 0px 24px 0px;
+}
+.main-questions img{
+    width: 270px;
+}
+.main-questions h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 8px 0px 12px 0px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 12px 12px 12px 12px;
+}
+footer h5{
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
